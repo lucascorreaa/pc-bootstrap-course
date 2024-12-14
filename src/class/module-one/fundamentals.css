@@ -1,0 +1,134 @@
+*{
+    text-decoration: none;
+    border: none;
+}
+
+header > h4{
+    color: #00A000;
+    text-decoration: underline;
+    text-underline-offset: 4px
+}
+
+header > nav{
+    display: flex;
+    gap: 40px;
+}
+
+header > nav > a{
+    text-decoration: none;
+    color: #000001;
+}
+
+header nav a:nth-child(1){
+    color: #00A000;
+}
+
+.compras{
+    display: flex;
+    gap: 24px;
+}
+
+.compras > button{
+    background-color: transparent;
+    border: 1px solid #00A000;
+    color: #00A000;
+    font-size: 16px;
+
+    width: 105px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;    
+}
+
+section{
+    padding-top: 50px;
+}
+
+section > aside{
+    display: flex;
+    gap: 50px;
+}
+
+
+section > aside > img{
+    width: 40%;
+}
+
+.text-main{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+
+    padding-left: 65px;
+}
+
+.text-main > h1{
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+
+.text-main > h1 > span{
+    color: #00A000;
+}
+
+.text-main > p{
+    padding-bottom: 25px;
+}
+
+.botoes{
+    display: flex;
+    gap: 25px;
+}
+
+.order{
+    width: 144px;
+    height: 45px;
+
+    background-color: #00A000;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.explore{
+    background-color: transparent;
+    border: 1px solid #00A000;
+    color: #00A000;
+
+    width: 188px;
+    height: 45px;
+    border-radius: 10px;
+}
+
+.escolher{
+    padding-bottom: 60px;
+}
+
+.escolher > main{
+    flex-direction: column;
+}
+
+.row{
+    padding-top: 60px;
+}
+
+.palavras{
+    padding-bottom: 50px;
+
+    text-align: center;
+}
+
+.special-foods > article > div > div > button{
+    width: 250px;
+    height: 45px;
+    border-radius: 10px;
+
+    background-color: #00A000;
+    color: #fff;
+
+    font-size: 16px;
+}
+
+.palavra{
+    padding-bottom: 25px;
+}
