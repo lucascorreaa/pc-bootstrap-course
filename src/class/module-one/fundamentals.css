@@ -40,17 +40,18 @@ header nav a:nth-child(1){
     text-align: center;    
 }
 
-section{
+.hero{
     padding-top: 50px;
+    padding-bottom: 60px;
 }
 
-section > aside{
+.hero > aside{
     display: flex;
     gap: 50px;
 }
 
 
-section > aside > img{
+.hero > aside > img{
     width: 40%;
 }
 
@@ -101,7 +102,8 @@ section > aside > img{
 }
 
 .escolher{
-    padding-bottom: 60px;
+    padding-bottom: 90px;
+    padding-top: 80px;
 }
 
 .escolher > main{
@@ -116,6 +118,11 @@ section > aside > img{
     padding-bottom: 50px;
 
     text-align: center;
+}
+
+.special-foods{
+    padding-top: 70px;
+    padding-bottom: 90px;
 }
 
 .special-foods > article > div > div > button{
