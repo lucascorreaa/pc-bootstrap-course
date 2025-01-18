@@ -1,0 +1,237 @@
+* {
+  text-decoration: none;
+  border: none;
+}
+
+header > h4 {
+  color: #00a000;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+header > nav {
+  display: flex;
+  gap: 40px;
+}
+
+header > nav > a {
+  text-decoration: none;
+  color: #000001;
+
+  transition: 0.3s ease-in-out;
+}
+
+header > nav > a:hover {
+  color: #00a000;
+}
+
+.compras {
+  display: flex;
+  gap: 24px;
+}
+
+.compras > button {
+  background-color: transparent;
+  border: 1px solid #00a000;
+  color: #00a000;
+  font-size: 16px;
+
+  width: 105px;
+  height: 40px;
+  border-radius: 10px;
+  text-align: center;
+
+  transition: 0.3s ease-in-out;
+}
+
+.compras > button:hover {
+  background-color: #00a000;
+  color: #fff;
+}
+.hero {
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+
+.hero > aside {
+  display: flex;
+  gap: 50px;
+}
+
+.hero > aside > img {
+  width: 40%;
+}
+
+.text-main {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+
+  padding-left: 65px;
+}
+
+.text-main > h1 {
+  font-size: 45px;
+  font-weight: 700;
+  padding-bottom: 25px;
+}
+
+.text-main > h1 > span {
+  color: #00a000;
+}
+
+.text-main > p {
+  padding-bottom: 25px;
+}
+
+.botoes {
+  display: flex;
+  gap: 25px;
+}
+
+.order {
+  width: 144px;
+  height: 45px;
+
+  background-color: #00a000;
+  color: #fff;
+  border-radius: 10px;
+
+  transition: 0.3s ease-in-out;
+}
+
+.order:hover {
+  background-color: transparent;
+  border: 1px solid #00a000;
+  color: #00a000;
+}
+
+.explore {
+  background-color: transparent;
+  border: 1px solid #00a000;
+  color: #00a000;
+
+  width: 188px;
+  height: 45px;
+  border-radius: 10px;
+
+  transition: 0.3s ease-in-out;
+}
+
+.explore:hover {
+  background-color: #00a000;
+  color: #fff;
+}
+
+.escolher {
+  padding-bottom: 90px;
+  padding-top: 80px;
+}
+
+.escolher > main {
+  flex-direction: column;
+}
+
+.row {
+  padding-top: 60px;
+}
+
+.palavras {
+  padding-bottom: 50px;
+
+  text-align: center;
+}
+
+.special-foods {
+  padding-top: 70px;
+  padding-bottom: 90px;
+}
+
+.special-foods > article > div > div > button {
+  width: 250px;
+  height: 45px;
+  border-radius: 10px;
+
+  background-color: #00a000;
+  color: #fff;
+
+  font-size: 16px;
+
+  transition: 0.3s ease-in-out;
+}
+
+.special-foods > article > div > div > button:hover {
+  background-color: transparent;
+  border: 1px solid #00a000;
+  color: #00a000;
+}
+
+.palavra {
+  padding-bottom: 25px;
+}
+
+.cards-clientes > div {
+  width: 30%;
+}
+
+.cards-clientes > div > img {
+  width: 100px;
+  height: 100px;
+}
+
+.about-us {
+  padding-top: 85px;
+  padding-bottom: 85px;
+  gap: 85px;
+}
+
+.about-us > img {
+  width: 40%;
+}
+
+.about-us > main {
+  width: 35%;
+}
+
+.about-us > main > button {
+  width: 250px;
+  height: 45px;
+  border-radius: 10px;
+
+  background-color: #00a000;
+  color: #fff;
+
+  font-size: 16px;
+
+  transition: 0.3s ease-in-out;
+}
+
+.about-us > main > button:hover {
+  background-color: transparent;
+  border: 1px solid #00a000;
+  color: #00a000;
+}
+
+.subscribe {
+  padding-top: 85px;
+  padding-bottom: 85px;
+}
+
+.subscribe > div > input {
+  margin-left: 200px;
+}
+
+footer {
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+
+.contatos {
+  gap: 200px;
+}
+
+.contatos > aside > h4 {
+  color: white;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
